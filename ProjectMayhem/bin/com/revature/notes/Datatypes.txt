@@ -1,0 +1,34 @@
+In Java we have primitive and reference types
+Primitive -8 types
+	char 16
+	boolean 1
+	byte 8
+	short 16
+	int 32
+	long 64
+	float 32
+	double 64
+*** look up and memorize bit size for each***
+
+Reference - an object; more than just a value
+	Java is a passes by value. It passes the values
+		of references rather than the references themselves
+Numeric type conversions
+	look out for loss of precision
+	narrowing
+	widening
+	
+	
+	
+	
+	
+	*****ignore*********
+make new java project
+package structure
+2 beans
+push the project to a new repository -- DAY3albinN
+pull someone else's repo, make branch for yourself
+add a driver class to the project that uses both of the beans
+push all changes back to your branch on other persons repo
+
+

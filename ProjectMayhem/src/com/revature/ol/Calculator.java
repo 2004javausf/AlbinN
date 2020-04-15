@@ -4,9 +4,21 @@ package com.revature.ol;
 
 public class Calculator {
 
+	static int a;
+	static double b;
+	
+	
 	public static void main(String[] args) {
 		//parametric polymorphism. knows which add method we made to use based on input type
 		//can take doubles and ints
+		
+		a = 5;
+		b = a;
+		b = 3.1;
+		a = (int)b;
+		System.out.println(b);
+		
+		
 		add(3,6);
 		add(1.3, 4.5);
 	}
