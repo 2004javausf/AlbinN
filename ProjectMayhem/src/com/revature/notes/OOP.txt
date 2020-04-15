@@ -1,0 +1,31 @@
+Pillars of OOP
+Inheritance
+	when a language allows for a hierarchy of objects
+	child objects obtain states and behaviors from parent objects.
+	Multiple inheritance? NO! (kinda yes for interfaces)
+	***LOOK UP DIAMOND PROBLEM***
+		
+Encapsulation
+	Seems similar to abstraction so people leave abstraction out
+	Have getters and setters to hide and protect data
+	Conceal internal state of object. Preserving integrity.
+
+Polymorphism
+	the ability for the programming language to be able to tell the difference between objects and methods of the same names with different
+		variable/class types.
+	Overriding - same name, same parameters, different behavior.
+	Overloading - same name, different parameters, different behavior.
+	Many forms
+	Multiple "is-a" relationships: Object is an animal. animal is a cat.
+	Covariance
+
+
+Abstraction
+	Hiding the implementation details
+	"show what it does, not how it does it"
+	Exposing only functionality
+	Abstract classes - abstract methods have no implementation
+*some people say there are 3 pillars and leave out
+	abstraction*
+	
+	
