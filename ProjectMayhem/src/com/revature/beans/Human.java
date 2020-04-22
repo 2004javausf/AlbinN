@@ -1,6 +1,8 @@
 package com.revature.beans;
 //Packages are just very fancy folders. Namespace
 
+import com.revature.classtypes.Animal;
+import com.revature.classtypes.Hunt;
 
 /*
  * Naming Conventions
@@ -10,7 +12,7 @@ package com.revature.beans;
  * Constants: ALL_CAPS_LOLZ typically delimited by underscores
  */
 
-public class Human {
+public class Human extends Animal implements Hunt {
 	/*
 	 * Members of a class- couple of forms
 	 * Instance variables-property of a specific object (human's name)
@@ -51,6 +53,18 @@ public class Human {
 	@Override
 	public String toString() {
 		return "Human [name=" + name + ", age=" + age + ", weight=" + weight + "]";
+	}
+
+	@Override
+	public void findPrey() {
+		System.out.println("you ded");
+		
+	}
+
+	@Override
+	public void breathe() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }
